@@ -49,9 +49,8 @@
 \newcommand\ruleafter[1]{#1~{\color{black!60!\@themecolor}\hrulefill}} % a trick to put the line with <before> parameter in \titleformat
 
 % Setup for coverletter
-
 \newcommand*{\setcompanyname}[1]{\def\@companyname{#1}}
-\newcommand*{\setcontactperson}[1]{\def\@contactperson{#1}}
+\newcommand*{\setfirstline}[1]{\def\@firstline{#1}}
 \newcommand*{\setclaimedposition}[1]{\def\@claimedposition{#1}}
 
 
@@ -110,9 +109,10 @@
 
 % Coverletterview
 \newcommand\coverletter[1]{
-  \\  \coverlettersubview 
+  \coverlettersubview
   \section{} \vspace{1ex} 
-  \textbfColor{ Dear \@contactperson, \\[0.1cm]}
+  \textbfColor{ \@firstline, \\[0.1cm]}
+  \setlength{\parskip}{1em}
   #1
 }
 

@@ -1,6 +1,6 @@
 # cv-latex
 
-My CV and cover letter template, written in latex. The final document can be viewed at [cv.dlevy.me](https://cv.dlevym.me/).
+My CV and cover-letter template, written in latex. The final document can be viewed at [cv.dlevy.me](https://cv.dlevym.me/).
 
 ## Special Mentions
 

@@ -209,6 +209,6 @@
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
   \renewcommand\footnoterule{\rule{0.468\linewidth}{0.5pt}}
   \let\thefootnote\relax\footnote{
-    \hspace{0.1cm} \today\ / Like the document design? \href{https://github.com/danilevy1212/cv-latex}{Check out it's source code!}
+    \hspace{0.1cm} \today\ / Like this design? \href{https://github.com/danilevy1212/cv-latex}{Check out it's source code!}
   }
 }

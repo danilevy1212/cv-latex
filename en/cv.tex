@@ -19,7 +19,7 @@
 % Summary
 \addblocktext{Summary}{
   \begin{addmargin}[0cm]{0.66cm}
-    \hspace{4ex} Passionate about learning new skills and expanding my knowledge in order to solve information systems problems. I enjoy the challenge of finding concrete solutions to open-ended questions, carefully considering all available options, their advantages and disadvantages and executing the most appropriate. In my spare time I study Japanese, do sports and research technologies beyond the scope of those I typically use in my workplace.
+      \hspace{4ex} Experienced Software Engineer and Tech Lead proficient in Typescript and Python, with an evolving expertise in Golang and Rust, demonstrated through projects on my \href{https://github.com/danilevy1212}{GitHub}. Adept at leading complex projects and scalable system design. Passionate about mentoring, leveraging diverse technologies for innovative solutions, and committed to continuous professional development in emerging languages and frameworks.
   \end{addmargin}
 }
 
@@ -27,25 +27,25 @@
 \addblocktext{Skills}{
   \createskills{
     \createskill{Programming Languages}{
-      python \cpshalf typescript \cpshalf rust \cpshalf golang \cpshalf bash / zsh \cpshalf solidity
+      python \cpshalf typescript \cpshalf rust \cpshalf golang \cpshalf bash \cpshalf lua
     }
     \createskill{Development environments}{
-      node / npm \cpshalf poetry / pipenv \cpshalf cargo \cpshalf krew \cpshalf linux \cpshalf NixOS
+      node / npm \cpshalf poetry / pipenv \cpshalf cargo \cpshalf linux \cpshalf NixOS \cpshalf neoVim
     }
     \createskill{Software Development Insights}{
       Design Patterns \cpshalf CD/CI \cpshalf UNIX Philosophy \cpshalf Infrastructure as Code
     }
     \createskill{Frameworks \ \& \ Libraries}{
-      Django \cpshalf Flask  \cpshalf Express \cpshalf Nest \cpshalf Vue \cpshalf React \cpshalf Gin \cpshalf Lodash \cpshalf Jest
+      \cpshalf Express \cpshalf NestJS \cpshalf Tokio \cpshalf Gin Django \cpshalf Flask \cpshalf Vue \cpshalf React
     }
     \createskill{Data Bases}{
       PostgreSQL \cpshalf MongoDB \cpshalf redis \cpshalf Elastic Search \cpshalf Graphql
     }
     \createskill{Infrastructure}{
-      Docker \cpshalf Kubernetes \cpshalf AWS \cpshalf Microservices \cpshalf ArgoCD \cpshalf Bull JS \cpshalf RQ
+      Docker \cpshalf Kubernetes \cpshalf AWS \cpshalf microservices \cpshalf serverless \cpshalf Gilab CI / CD
     }
     \createskill{Interpersonal}{
-      Positivity  \cpshalf Tenacity \cpshalf Team Communication Skills \cpshalf Fast-Learning Skills
+      Positivity  \cpshalf Tenacity \cpshalf Clear Communication \cpshalf Teamwork \cpshalf Leadership
     }
     \createskill{Languages} {
       \textbfColor{\emph{Native:}} English \cpshalf Spanish \ \ \textbfColor{\emph{Advanced:}} Japanese, Nôken 2, Dec 2022
@@ -59,39 +59,47 @@
 \explanation{\textbfColor{Tech Lead}\emphColor{-\ \ \ Backend Engineering Team. }}
 \createbullets{
   {
-    Promoted to be responsible for the technical direction of the team.
+    Promoted due to initiative in modernizing a critical legacy monorepo, leading to improved project health and team efficiency.
   },
   {
-    Refinement of work before it makes it to the team. Constant co-ordination with product team to bring requirements into reality.
+    Spearheaded adoption of serverless architecture, breaking down monolithic services into smaller, more manageable units, improving scalability and developer experience.
   },
   {
-    Investigate new technologies and create proof of concepts that could be good fits for the necessities of the business.
+    Conducted extensive analysis and documentation of critical legacy code, improving our understanding and ability to extend it efficiently.
   },
   {
-    Mentorship and guidance of team members.
+    Established a comprehensive 'developer wiki' on Confluence, breaking down silos and fostering knowledge sharing across engineering teams.
+  },
+  {
+    Designed and implemented an 'auto-submission' event driven system to automate the loan application process, previously done manually, enhancing operational efficiency.
+  },
+  {
+    Revitalized a large legacy monorepo by replacing ineffective FlowJS with TypeScript, greatly enhancing static code analysis and developer experience. 
   }
 }
+%
 \datedexperience{\href{https://www.autopay.com/}{Autopay}}{July 2022 - November 2022}
 \explanation{\textbfColor{Backend Engineer}\emphColor{-\ \ \ Backend Engineering Team. }}
 \createbullets{
   {
-    Development of public API layer for car loan application submission.
+    Developed several APIs to support the new car loan application process, including SNS / SQS based event driven lambdas and REST servers.
   },
   {
-    Modernization of legacy code. Rewrites into Typescript, redesign into an asynchronous distributed architecture based in AWS lambdas and SNS events.
+    Took ownership of manual mail code import process, semi-automating it with Gitlab CI / CD to reduce the time required to import new codes by 90\%.
   }
 }
+%
 \datedexperience{\href{https://bambu.co/}{Bambu}}{January 2022 - June 2022}
 \explanation{\textbfColor{Backend Engineer}\emphColor{-\ \ \ Backend Engineering Team. }}
 \createbullets{
   {
-    Development of multiple backend services that constitute Bambu Robo Advisor.
+    Played a key role in the development and optimization of backend services for Bambu's Robo Advisor, contributing to its core functionality.
   },
   {
-    Deployment and maintenance of Kubernetes clusters that deliver financial services APIs to our various clients.
+    Managed the deployment and ongoing maintenance of Kubernetes clusters, ensuring reliable delivery of financial services APIs to a global client base.
   },
   {
-    Work with a diverse and international team, adapting Bambu Robo Advisor core to the specific needs of our clients from all around the world.
+    Collaborated effectively within a diverse, international team, customizing Bambu's Robo Advisor to meet unique requirements of clients worldwide, demonstrating adaptability and cross-cultural communication skills.
   }
 }
 %
@@ -99,19 +107,19 @@
 \explanation{\textbfColor{Software Engineer}\emphColor{-\ \ \ Backend Engineering Team. }}
 \createbullets{
   {
-    Design and development of the systems that constitute the financial services of Rebellion Pay, as well as internal tools used to resolve customer incidents.
+    Spearheaded the design and development of key systems for Rebellion Pay's financial services and internal tools for customer incident resolution.
   },
   {
-    Use of infrastructure virtualization and deployment tools, such as Docker, Kubernetes and Terraform, to guarantee 100\% uninterrupted service to our customers.
+    Enhanced system resilience and scalability by shifting from EC2 to a Kubernetes cluster, enabling effective horizontal scaling.
   },
   {
-    Integration of the backend service with multiple third-party APIs to develop new features, such as crypto currency trading or cashback rewards.
+    Integrated backend services with various third-party APIs to launch innovative features like cryptocurrency trading and cashback rewards.
   },
   {
-    Design and development of the projects transition from a monolithic REST service to a distributed micro-services architecture based on the NATS protocol, paying careful consideration to performance, data modeling and asynchronous services orchestration.
+    Contributed to the transition from a monolithic REST service to a distributed microservices architecture using NATS, focusing on performance optimization and effective data modeling.
   },
   {
-    Work in a multidisciplinary team under SCRUM methodology to achieve business goals quickly and efficiently.
+    Collaborated in a multidisciplinary team, employing SCRUM methodology to rapidly and efficiently meet business objectives.
   }
 }
 %
@@ -119,19 +127,19 @@
 \explanation{\textbfColor{Full Stack Developer}\emphColor{-\ \ \ Department of Artificial Intelligence.}}
 \createbullets{
   {
-    Full Stack Development of the web interface of an experimental application which mathematically measures the effect of news publications on share prices of IBEX 35 companies.
+    Developed a web interface for an AI application analyzing news impact on IBEX 35 share prices, employing Vue, Django, Flask and AWS Lambdas.
   },
   {
-    Iterative refinement of the application, seeking attractive use cases for potential clients.
+    Iteratively refined the application, identifying and implementing key use cases to attract potential clients.
   },
   {
-    Design of solutions for the multiple problems arising during development of the application (user interface refinement, query optimization, design of application state control systems, fixes for various unexpected behavior).
+    Resolved complex UI challenges and optimized query performance, enhancing application efficiency and user experience.
   },
   {
-    Leadership and decision making skills, assignment of tasks to the rest of the team, setting priorities in order to meet deadlines.
+    Led the team in task allocation and priority setting, effectively meeting project deadlines.
   },
   {
-    Research and implementation of productivity enhancement techniques, both strictly technical (DevOps, CI/CD) and organizational (Research-oriented SCRUM).
+    Implemented DevOps and adapted SCRUM methodologies to boost team productivity and streamline development processes.
   }
 }
 %
@@ -139,13 +147,13 @@
 \explanation{\textbfColor{Internship}\emphColor{-\ \ \ Web Developer}}
 \createbullets{
   {
-    Developer in Media-Streamer, an ETL project for metadata enrichment of multimedia files through incoming data from multiple distinct sources, whose structures had to be consolidated into a single format.
+    Contributed to Media-Streamer, an ETL project for multimedia file metadata enrichment, utilizing AWS, MySQL, Sequelize, and ExpressJS.
   },
   {
-    Experience as team member of a SCRUM organized software development project.
+    Gained initial experience in a SCRUM-based software development team, learning agile methodologies in practice.
   },
   {
-    Development of code in a production environment, with the responsibility of delivering client requirements within fixed times.
+    Developed production code, adapting to client requirements and delivering within strict deadlines, honing development skills.
   }
 }
 
@@ -155,7 +163,7 @@
 \explanation{\textbfColor{Master in Cyber-Security}}
 \createbullets{
   {
-    \hspace{-0.25cm} \textbfColor{Graduate Project:} \hspace{-0.35cm} Research, development and deployment of an email spam filter using machine learning predictive model based on the Naive-Bayes algorithm.
+    \hspace{-0.25cm} \textbfColor{Graduate Project:} \hspace{-0.35cm} Researched, developed and deployed an email spam filter using a machine learning predictive model based on the Naive-Bayes algorithm.
   }
 }
 \datedexperience{\href{https://www.comillas.edu/icai}{Comillas ICAI}}{September 2013 - June 2018} 
@@ -165,7 +173,7 @@
     \hspace{-0.3cm} \textbfColor{International Exchange Program:} \hspace{-0.35cm} Rose-Hulman Institute of Technology, Terre Haute, IN (4th year of undergrad)
   },
   {
-    \hspace{-0.3cm} \textbfColor{Undergraduate Project:} \hspace{-0.28cm} Comprehensive research of the security risks present in automobile control systems and implementation of a encrypted communication channel between the control components to alleviate the encountered issues. Sponsored by Rolls Royce, Indianapolis, IN.
+    \hspace{-0.3cm} \textbfColor{Undergraduate Project:} \hspace{-0.28cm} Comprehensively researched the security risks present in automobile control systems and implemented an encrypted communication channel between the control components to alleviate the encountered issues. Sponsored by Rolls Royce, Indianapolis, IN.
   }
 }
 

@@ -146,12 +146,12 @@
   {\textit{  \footnotesize \mdseries{ \color{black!10!\@themecolor} #1 }}}
 }
 
-\newcommand{\datedexperience}[2]{%
-  \begin{small}
-    \hspace{1em} \scshape \textbfColor{#1}
-  \end{small}
-  \hfill
-  \datetext{#2} \\[0.02cm]
+\newcommand{\datedexperience}[4]{%
+  \noindent
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l@{\hskip 0.5em}r}
+    \textsc{\textbfColor{#3}} \hspace{0.2em} \colorize{\textemdash}\ {\footnotesize \colorize{\textit{\href{#1}{#2}}}} & \textit{\footnotesize \color{black!10!\@themecolor} #4} \\
+  \end{tabular*}
+  \\[0.2cm]
 }
 
 \newcommand{\explanation}[1]{

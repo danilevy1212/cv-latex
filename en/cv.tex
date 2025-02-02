@@ -19,7 +19,7 @@
 % Summary
 \addblocktext{Summary}{
   \begin{addmargin}[0cm]{0.66cm}
-      \hspace{4ex} Experienced Software Engineer and Tech Lead proficient in Typescript and Python, actively expanding skills in Golang and Rust, demonstrated through projects on my \href{https://github.com/danilevy1212}{GitHub}.
+      Experienced Software Engineer and Tech Lead specializing in backend development with Python, TypeScript, and Golang. Passionate about scalable architecture, cloud infrastructure, and efficient software design.
   \end{addmargin}
 }
 
@@ -27,144 +27,85 @@
 \addblocktext{Skills}{
   \createskills{
     \createskill{Programming Languages}{
-      python \cpshalf typescript \cpshalf rust \cpshalf golang \cpshalf bash \cpshalf lua
+      python \cpshalf typescript \cpshalf golang \cpshalf rust \cpshalf bash \cpshalf lua
     }
-    \createskill{Development environments}{
-      node / npm \cpshalf poetry / pipenv \cpshalf cargo \cpshalf linux \cpshalf NixOS \cpshalf neoVim
+    \createskill{Development Tools}{
+      Node.js \cpshalf Poetry \cpshalf Cargo \cpshalf Linux \cpshalf NixOS \cpshalf NeoVim
     }
-    \createskill{Software Development Insights}{
-      Design Patterns \cpshalf CD/CI \cpshalf UNIX Philosophy \cpshalf Infrastructure as Code
+    \createskill{Backend Frameworks}{
+      Express.js \cpshalf NestJS \cpshalf Gin \cpshalf Fiber \cpshalf Django \cpshalf Flask
     }
-    \createskill{Frameworks \ \& \ Libraries}{
-      ExpressJS \cpshalf NestJS \cpshalf Tokio \cpshalf Gin \cpshalf Django \cpshalf Flask \cpshalf Vue \cpshalf React
+    \createskill{Databases \& Infrastructure}{
+      PostgreSQL \cpshalf MongoDB \cpshalf Redis \cpshalf ElasticSearch \cpshalf Docker \cpshalf Kubernetes \cpshalf AWS
     }
-    \createskill{Data Bases}{
-      PostgreSQL \cpshalf MongoDB \cpshalf redis \cpshalf Elastic Search \cpshalf Graphql
-    }
-    \createskill{Infrastructure}{
-      Docker \cpshalf Kubernetes \cpshalf AWS \cpshalf microservices \cpshalf serverless \cpshalf Gilab CI / CD
-    }
-    \createskill{Interpersonal}{
-      Positivity  \cpshalf Tenacity \cpshalf Clear Communication \cpshalf Teamwork \cpshalf Leadership
+    \createskill{Software Design}{
+      Design Patterns \cpshalf CI/CD \cpshalf Microservices \cpshalf Serverless
     }
     \createskill{Languages} {
-      \textbfColor{\emph{Native:}} English \cpshalf Spanish \ \ \textbfColor{\emph{Advanced:}} Japanese, Nôken 2, Dec 2022
+      \textbfColor{Native:} English \cpshalf Spanish \ \ \textbfColor{Advanced:} Japanese (N2, Dec 2022)
     }
   }
 }
 
 % Experience
 \section{Experience}
-\datedexperience{\href{https://www.autopay.com/}{Autopay}}{November 2022 - Present}
-\explanation{\textbfColor{Tech Lead}}
+
+\datedexperience{https://www.autopay.com/}{Autopay}{Tech Lead (Promoted from Backend Engineer on Dec 2022)}{July 2022 - Present}
 \createbullets{
   {
-    Earned a promotion to lead a four-engineer team, driven by my successful overhaul of a critical legacy monorepo, enhancing both project health and team productivity.
+    Led a team of four engineers, driving architectural improvements and project efficiency.
   },
   {
-    Spearheaded adoption of serverless architecture, breaking down monolithic services into smaller, more manageable units, improving scalability and developer experience.
+    Spearheaded transition from a monolithic architecture to serverless, improving scalability and developer experience.
   },
   {
-    Conducted extensive analysis and documentation of critical legacy code, writing dozens of articles, improving our understanding and ability to extend it efficiently.
+    Established a company-wide developer wiki, enhancing documentation and knowledge sharing.
   },
   {
-    Established a comprehensive 'developer wiki' on Confluence between the four development teams of the organization, breaking down silos and fostering knowledge sharing across engineering teams.
+    Developed an event-driven auto-submission system, automating loan applications and improving processing efficiency 10x.
   },
   {
-    Designed and implemented an 'auto-submission' event driven system to automate the loan application process, previously done manually, enhancing operational efficiency by 10x.
-  },
-  {
-    Revitalized a large legacy monorepo by replacing ineffective FlowJS with TypeScript, removing hundreds of false-positive static code analysis errors, greatly enhancing developer experience. 
+    Refactored legacy monorepo, replacing FlowJS with TypeScript, eliminating hundreds of static analysis errors.
   }
 }
-%
-\datedexperience{\href{https://www.autopay.com/}{Autopay}}{July 2022 - November 2022}
-\explanation{\textbfColor{Backend Engineer}}
+
+\datedexperience{https://bambu.co/}{Bambu}{Backend Engineer}{January 2022 - June 2022}
 \createbullets{
   {
-    Developed several APIs to support the new car loan application process, including SNS / SQS based event driven lambdas and REST servers, to scale to a million application submissions per year.
+    Maintained and optimized Kubernetes deployments for a global financial services platform.
   },
   {
-    Took ownership of manual mail code import process, semi-automating it with Gitlab CI / CD to reduce the time required to import new codes by 90\%.
+    Customized Robo Advisor APIs for dozens of international banking clients, ensuring seamless integration.
   }
 }
-%
-\datedexperience{\href{https://bambu.co/}{Bambu}}{January 2022 - June 2022}
-\explanation{\textbfColor{Backend Engineer}}
+
+\datedexperience{https://rebellionpay.com/en}{Rebellion Pay}{Software Engineer}{November 2020 - November 2021}
 \createbullets{
   {
-    Managed the deployment and ongoing maintenance of Kubernetes clusters, ensuring reliable delivery of financial services APIs to a global client base of dozens of banking companies with millions of users.
+    Led development of cryptocurrency trading, cashback rewards, and customer service automation tools.
   },
   {
-    Collaborated within a diverse, international team, customizing Bambu's Robo Advisor to meet unique requirements of clients worldwide.
+    Migrated systems from EC2 to Kubernetes, enabling horizontal scaling for thousands of concurrent users.
+  },
+  {
+    Transitioned from a monolithic REST framework to a microservices architecture using NATS, scaling to 800,000 active users.
   }
 }
-%
-\datedexperience{\href{https://rebellionpay.com/en}{Rebellion Pay}}{November 2020 - November 2021}
-\explanation{\textbfColor{Software Engineer}}
+
+\datedexperience{https://mrhouston.net/en}{mr Houston}{Full Stack Developer}{August 2019 - November 2020}
 \createbullets{
   {
-    Led the design and development of key systems for Rebellion Pay's financial services, such as cryptocurrency trading, cashback rewards, and internal tools for customer incident resolution.
+    Built a financial AI application analyzing news impact on IBEX 35 share prices.
   },
   {
-    Enhanced system resilience and scalability by shifting from EC2 to a Kubernetes cluster, enabling effective horizontal scaling for thousands of concurrent users.
-  },
-  {
-    Played a pivotal role in evolving from a monolithic REST framework to a more dynamic, distributed microservices architecture, utilizing NATS for enhanced performance and sophisticated data modeling, allowing us to reach 800.000 active users.
-  },
-  {
-    Collaborated in a multidisciplinary team of 20+ engineers and designers, employing SCRUM methodology to efficiently meet business objectives.
-  }
-}
-%
-\datedexperience{\href{https://mrhouston.net/en/}{mr Houston}}{August 2019 - November 2020}
-\explanation{\textbfColor{Full Stack Developer}}
-\createbullets{
-  {
-    Developed a web interface for an AI application analyzing news impact on IBEX 35 share prices, employing Vue, Django, Flask and AWS Lambdas.
-  },
-  {
-    Iteratively refined the application, identifying and implementing key use cases to attract potential clients, through four product iterations.
-  },
-  {
-    Resolved complex UI challenges involving data graphs of tens of thousands of data points and optimized query performance, enhancing application user experience.
-  },
-  {
-    Managed a team of three, a software engineer and two data scientists, in task allocation and priority setting, effectively meeting project deadlines.
-  }
-}
-%
-\datedexperience{\href{https://www.optivamedia.com/}{Optiva Media}}{June 2018 - October 2018}
-\explanation{\textbfColor{Intern Web Developer}}
-\createbullets{
-  {
-    Contributed to Media-Streamer, an ETL project for multimedia file metadata enrichment, utilizing AWS, MySQL, Sequelize, and ExpressJS.
-  },
-  {
-    Gained experience in a SCRUM-based software development team consisting of a dozen people, learning agile methodologies in practice.
+    Led a team of three, managing task allocation and technical decision-making.
   }
 }
 
 % Education
-\section{Education} 
-\datedexperience{\href{https://www.upm.es/}{Universidad Politécnica de Madrid}}{September 2018 - June 2019} 
-\explanation{\textbfColor{Master in Cyber-Security}}
-\createbullets{
-  {
-    \hspace{-0.25cm} \textbfColor{Graduate Project:} \hspace{-0.35cm} Researched, developed and deployed an email spam filter using a machine learning predictive model based on the Naive-Bayes algorithm.
-  }
-}
-\datedexperience{\href{https://www.comillas.edu/icai}{Comillas ICAI}}{September 2013 - June 2018} 
-\explanation{\textbfColor{Undergraduate Degree in Telematics Engineering}}
-\createbullets{
-  {
-    \hspace{-0.3cm} \textbfColor{International Exchange Program:} \hspace{-0.35cm} Rose-Hulman Institute of Technology, Terre Haute, IN (4th year of undergrad)
-  },
-  {
-    \hspace{-0.3cm} \textbfColor{Undergraduate Project:} \hspace{-0.28cm} Comprehensively researched the security risks present in automobile control systems and implemented an encrypted communication channel between the control components to alleviate the encountered issues. Sponsored by Rolls Royce, Indianapolis, IN.
-  }
-}
-
+\section{Education}
+\datedexperience{https://www.upm.es/}{Universidad Politécnica de Madrid}{Master in Cyber-Security}{2018 - 2019} 
+\datedexperience{https://www.comillas.edu/icai}{Comillas ICAI}{B.S. in Telematics Engineering}{2013 - 2018} 
 % Footnote
 \createfootnote
 \end{document}

@@ -154,6 +154,14 @@
   \\[0.2cm]
 }
 
+\newcommand{\datedexperiencenolink}[3]{%
+  \noindent
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l@{\hskip 0.5em}r}
+      \textsc{\textbfColor{#2}} \hspace{0.2em} \colorize{\textemdash}\ {\footnotesize \colorize{\textit{#1}}} & \textit{\footnotesize \color{black!10!\@themecolor} #3} \\
+  \end{tabular*}
+  \\[0.2cm]
+}
+
 \newcommand{\explanation}[1]{
   \textsc{\indent \footnotesize #1 } \\[0.2cm]
 }
